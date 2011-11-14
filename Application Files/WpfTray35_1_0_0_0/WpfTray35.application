@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assemblyIdentity name="WpfTray35.application" version="1.0.0.0" publicKeyToken="0000000000000000" language="ru" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="Sonetica" co.v1:suiteName="Topface" asmv2:product="Topface" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="true" trustURLParameters="true" co.v1:createDesktopShortcut="true">
+    <subscription>
+      <update>
+        <expiration maximumAge="0" unit="days" />
+      </update>
+    </subscription>
+    <deploymentProvider codebase="http://make.url.here/WpfTray35.application" />
+  </deployment>
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="Application Files\WpfTray35_1_0_0_0\WpfTray35.exe.manifest" size="5699">
+      <assemblyIdentity name="WpfTray35.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="ru" processorArchitecture="msil" type="win32" />
+    </dependentAssembly>
+  </dependency>
+</asmv1:assembly>
